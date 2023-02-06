@@ -1,0 +1,63 @@
+@import "_resets.scss"
+@import "_normalizes.scss"
+
+$blue: #1974CE
+$light-blue: #84EDFB
+$light-green: #D2F064
+$green: #8DB844
+$text-color: #FBF9F3
+
+@font-face 
+    font-family: "Roboto"
+    src: url('../assets/fonts/Roboto-Regular.ttf')
+@font-face 
+    font-family: "Inter"
+    src: url('../assets/fonts/Inter-Regular.ttf')
+
+*
+    box-sizing: border-box
+
+.body-page
+    font-family: "Roboto"
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+
+.container
+    max-width: 1200px
+    padding: 0 30px
+    margin: 0 auto
+
+.header
+    background-color: $blue
+
+.header-container
+    min-height: 90px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    &__enter-button
+        width: 87px
+        height: 36px
+
+.nav-menu
+    &__list
+        display: flex
+        flex-direction: row
+    &__item
+        margin-right: 30px
+    &__link
+        text-decoration: none
+        font-size: 16px
+        font-family: "Inter"
+        color: $text-color
+
+.button-blue
+    border: none
+    border-radius: 8px
+    background-color: $light-blue
+    color: #1A4359
+    font-size: 16px
+    transition: all 0.3s ease-in-out
+    &:hover
+        background-color: $light-green
