@@ -543,14 +543,13 @@ template {
 .header {
   background-color: #1974CE;
 }
-
-.header-container {
+.header__container {
   min-height: 90px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.header-container__enter-button {
+.header__enter-button {
   width: 87px;
   height: 36px;
 }
@@ -575,8 +574,142 @@ template {
   background-color: #84EDFB;
   color: #1A4359;
   font-size: 16px;
+  font-family: "Inter";
   transition: all 0.3s ease-in-out;
 }
 .button-blue:hover {
   background-color: #D2F064;
+}
+
+.first-section {
+  background-color: #1974CE;
+}
+.first-section__container {
+  min-height: 780px;
+  padding-top: 90px;
+}
+
+.main-part {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 170px;
+}
+.main-part__right {
+  width: 44%;
+  display: flex;
+  flex-direction: column;
+}
+.main-part__title {
+  margin: 0 0 55px;
+  font-size: 62px;
+  color: #FBF9F3;
+}
+.main-part__subtitle {
+  margin-bottom: 45px;
+  font-size: 28px;
+  color: #FBF9F3;
+}
+.main-part__button {
+  width: 84%;
+  height: 48px;
+}
+.main-part__left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.symptom-box {
+  width: 100%;
+  height: 215px;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 10px;
+  background-color: #FBF9F3;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.symptom-box_last {
+  margin-bottom: 0px;
+}
+.symptom-box__title {
+  font-size: 25px;
+  color: #1974CE;
+}
+.symptom-box__center-span {
+  position: absolute;
+  height: 1px;
+  width: 70%;
+  background-color: rgba(25, 116, 206, 0.5);
+  left: 0px;
+  top: 112px;
+}
+.symptom-box__img {
+  width: 110px;
+  height: 119px;
+  align-self: flex-end;
+}
+.symptom-box__button-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.symptom-box__sign {
+  font-size: 16px;
+  font-family: "Inter";
+  color: #1A4359;
+  margin-right: 10px;
+}
+.symptom-box__button-pointer {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  border: none;
+  padding: 0px;
+  background-color: #D2F064;
+  transition: all 0.3s ease-in-out;
+}
+.symptom-box__button-pointer:hover {
+  transform: scale(1.05);
+}
+.symptom-box__button-pointer_pink {
+  background-color: #EC9A88;
+}
+.symptom-box__pointer-span {
+  position: absolute;
+  height: 4px;
+  background-color: #1A4359;
+}
+.symptom-box__pointer-span_one {
+  width: 28px;
+  left: 3px;
+  top: 15.5px;
+}
+.symptom-box__pointer-span_two {
+  width: 20px;
+  border-radius: 5px;
+  transform: rotate(45deg);
+  right: 0px;
+  top: 9.5px;
+}
+.symptom-box__pointer-span_three {
+  width: 20px;
+  border-radius: 5px;
+  transform: rotate(-45deg);
+  right: 0px;
+  top: 21px;
+}
+
+.main-part-link {
+  max-width: 917px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main-part-link__item {
+  font-size: 16px;
+  font-family: "Inter";
+  color: #FBF9F3;
 }/*# sourceMappingURL=style.css.map */
