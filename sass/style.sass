@@ -6,6 +6,7 @@ $light-blue: #84EDFB
 $light-green: #D2F064
 $green: #8DB844
 $text-color: #FBF9F3
+$title-color: #1A4359
 
 @font-face 
     font-family: "Roboto"
@@ -55,7 +56,7 @@ $text-color: #FBF9F3
     border: none
     border-radius: 8px
     background-color: $light-blue
-    color: #1A4359
+    color: $title-color
     font-size: 16px
     font-family: "Inter"
     transition: all 0.3s ease-in-out
@@ -126,7 +127,7 @@ $text-color: #FBF9F3
     &__sign
         font-size: 16px
         font-family: "Inter"
-        color: #1A4359
+        color: $title-color
         margin-right: 10px
     &__button-pointer
         position: relative
@@ -143,7 +144,7 @@ $text-color: #FBF9F3
     &__pointer-span
         position: absolute
         height: 4px
-        background-color: #1A4359
+        background-color: $title-color
         &_one
             width: 28px
             left: 3px
@@ -171,3 +172,53 @@ $text-color: #FBF9F3
         font-family: "Inter"
         color: $text-color
 
+.helping-section
+    &__container
+        position: relative
+        min-height: 960px
+        padding-top: 136px
+
+.helping-title
+    position: absolute
+    width: 50%
+    top: 92px
+    right: 7%
+    font-size: 45px
+    color: $title-color
+
+.step-box-wrapper
+    display: flex
+    justify-content: space-between
+
+.step-box
+    width: 27%
+    &_two
+        margin-top: 184px
+    &_three
+        margin-top: 312px
+    &__img-wrapper
+        position: relative
+    &__img
+        width: 100%
+        margin-bottom: 20px
+    &__number-box
+        position: absolute
+        width: 14.7%
+        height: 14.7%
+        top: 16px
+        left: 16px
+        background-color: $title-color
+        display: flex
+        justify-content: center
+        align-items: center
+        font-size: 16px
+        color: $text-color
+    &__title
+        margin-bottom: 20px
+        font-size: 30px
+        color: $blue
+    &__sign
+        font-size: 16px
+        color: $title-color
+        padding-bottom: 22px
+        border-bottom: 1px solid rgba(25, 116, 206, 0.5)

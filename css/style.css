@@ -712,4 +712,65 @@ template {
   font-size: 16px;
   font-family: "Inter";
   color: #FBF9F3;
+}
+
+.helping-section__container {
+  position: relative;
+  min-height: 960px;
+  padding-top: 136px;
+}
+
+.helping-title {
+  position: absolute;
+  width: 50%;
+  top: 92px;
+  right: 7%;
+  font-size: 45px;
+  color: #1A4359;
+}
+
+.step-box-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.step-box {
+  width: 27%;
+}
+.step-box_two {
+  margin-top: 184px;
+}
+.step-box_three {
+  margin-top: 312px;
+}
+.step-box__img-wrapper {
+  position: relative;
+}
+.step-box__img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.step-box__number-box {
+  position: absolute;
+  width: 14.7%;
+  height: 14.7%;
+  top: 16px;
+  left: 16px;
+  background-color: #1A4359;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: #FBF9F3;
+}
+.step-box__title {
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #1974CE;
+}
+.step-box__sign {
+  font-size: 16px;
+  color: #1A4359;
+  padding-bottom: 22px;
+  border-bottom: 1px solid rgba(25, 116, 206, 0.5);
 }/*# sourceMappingURL=style.css.map */
